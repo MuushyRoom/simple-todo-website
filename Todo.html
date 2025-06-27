@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/app.css">
+
+    <title>Simple Todo:</title>
+  </head>
+  <body>
+ 
+    <main class="todo-app-container">
+      <h1>Todo List</h1>
+      <section class="todo-controls">
+    <input type="text" id="context" placeholder="Create a note..." autocomplete="off" />
+    <button onclick="addList()">Add</button>
+    <button onclick="deleteAll()">Delete All</button>
+    </section>  
+    <ul id="list-container"></ul>
+     </main>   
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
